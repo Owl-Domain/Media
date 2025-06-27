@@ -26,6 +26,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Media", "Media\Media.csproj", "{619F8774-3255-4454-80FC-0229142422CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Media.Abstractions", "Media.Abstractions\Media.Abstractions.csproj", "{0C4BD2C5-CF97-480D-85D3-B03D133BEFDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{619F8774-3255-4454-80FC-0229142422CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{619F8774-3255-4454-80FC-0229142422CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{619F8774-3255-4454-80FC-0229142422CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4BD2C5-CF97-480D-85D3-B03D133BEFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4BD2C5-CF97-480D-85D3-B03D133BEFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4BD2C5-CF97-480D-85D3-B03D133BEFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4BD2C5-CF97-480D-85D3-B03D133BEFDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,17 +6,12 @@
 		<LangVersion>13</LangVersion>
 		<Nullable>enable</Nullable>
 
-		<AssemblyName>OwlDomain.Media</AssemblyName>
+		<AssemblyName>OwlDomain.Media.Abstractions</AssemblyName>
 		<RootNamespace>OwlDomain.Media</RootNamespace>
 
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<Deterministic>true</Deterministic>
 	</PropertyGroup>
-
-	<!-- Project references -->
-	<ItemGroup Label="projects">
-	  <ProjectReference Include="../Media.Abstractions/Media.Abstractions.csproj" />
-	</ItemGroup>
 
 	<!-- NuGet package -->
 	<PropertyGroup Label="nuget">
@@ -36,7 +31,7 @@
 		<PackageReleaseNotes>$([System.IO.File]::ReadAllText("$(MSBuildProjectDirectory)/meta/release-notes.txt"))</PackageReleaseNotes>
 
 		<Description>A package that is dedicated to creating managed implementations of different container formats, codecs and utility code for dealing with different aspects of media files.</Description>
-		<PackageTags>owldomain, media</PackageTags>
+		<PackageTags>owldomain, media, abstractions</PackageTags>
 	</PropertyGroup>
 
 	<!-- Package files -->
